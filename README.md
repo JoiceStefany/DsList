@@ -10,7 +10,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Postman](https://www.postman.com/)
 - [H2 Database](https://www.baeldung.com/spring-boot-h2-database)
 - [Postgresql](https://www.postgresql.org/download/)
-- 
+  
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  Em construção...  🚧
 </h4>
