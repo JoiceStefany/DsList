@@ -12,16 +12,16 @@ import com.limajoice.dslist.dto.GameListDTO;
 import com.limajoice.dslist.entities.GameList;
 import com.limajoice.dslist.repositories.GameListRepository;
 
+
 @Service
 public class GameListService {
 	
 	@Autowired
 	private GameListRepository gameListRepository;
 	
-
 	@Transactional(readOnly = true)
 	public List<GameListDTO> findAll() {
 		List<GameList> result = gameListRepository.findAll();
-		return result.stream().map(x -> new GameListDTO()).toList();
+		return result.stream().map(x -> new GameListDTO(x)).toList();
 	}
 }
