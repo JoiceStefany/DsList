@@ -12,5 +12,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Postgresql](https://www.postgresql.org/download/)
   
 <h4 align="center"> 
-	🚧  Em construção...  🚧
+	🚧  Finalizado.  🚧
 </h4>
